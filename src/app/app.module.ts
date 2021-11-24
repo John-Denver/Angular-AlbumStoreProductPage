@@ -12,6 +12,7 @@ import { ProductDescriptionComponent } from './product-description/product-descr
 
 // Mine
 import { ProductService } from './product.service';
+import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 
 
 
@@ -19,7 +20,8 @@ import { ProductService } from './product.service';
   declarations: [
     AppComponent,
     ProductPageComponent,
-    ProductDescriptionComponent
+    ProductDescriptionComponent,
+    ProductTracklistingComponent
   ],
   imports: [
     BrowserModule,
